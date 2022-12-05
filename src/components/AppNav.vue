@@ -13,7 +13,7 @@ export default {
         <li><button>ORDER ONLINE</button></li>
       </ul>
       <ul class="center-nav">
-        <li>HOME</li>
+        <li><i class="fa-light fa-mustache"></i> HOME</li>
         <li>PAGES</li>
         <li>MENU</li>
         <li><AppLogo class="logo" /></li>
@@ -22,8 +22,8 @@ export default {
         <li>LANDING</li>
       </ul>
       <ul class="right-nav">
-        <li>CART</li>
-        <li>SEARCH</li>
+        <li><i class="fa-solid fa-cart-shopping"></i> CART</li>
+        <li><i class="fa-solid fa-magnifying-glass"></i> SEARCH</li>
       </ul>
     </nav>
   </div>
@@ -41,12 +41,13 @@ export default {
 li {
   list-style: none;
   cursor: pointer;
-  margin: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
   color: white;
 }
 .main-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 .center-nav {
@@ -62,5 +63,21 @@ li {
 .right-nav {
   display: flex;
   align-items: center;
+}
+
+.right-nav i {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #d2401e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
 }
 </style>
