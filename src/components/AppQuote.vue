@@ -33,6 +33,7 @@ export default {
   max-width: 800px;
   margin: auto;
   text-align: center;
+  letter-spacing: 0.2rem;
 }
 h5 {
   color: #d2401e;

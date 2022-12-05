@@ -31,5 +31,6 @@ export default {
 
 .col img {
   width: 100%;
+  display: block;
 }
 </style>

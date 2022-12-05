@@ -22,7 +22,7 @@ export default {
 .header {
   background-color: #181818;
   padding: 20px;
-  height: 700px;
+  height: 100vh;
 }
 .hero-img {
   display: flex;
