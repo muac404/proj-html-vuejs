@@ -42,10 +42,12 @@ li {
   list-style: none;
   cursor: pointer;
   margin: 5px;
+  color: white;
 }
 .main-nav {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 .center-nav {
   display: flex;
