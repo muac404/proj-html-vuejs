@@ -20,7 +20,6 @@ export default {
 
 <template>
   <AppHeader />
-
   <AppHero />
   <AppSlogan />
   <AppQuote />
