@@ -4,6 +4,7 @@ import AppHero from "./components/AppHero.vue";
 import AppNav from "./components/AppNav.vue";
 import AppSpecials from "./components/AppSpecials.vue";
 import AppSlogan from "./components/AppSlogan.vue";
+import AppQuote from "./components/AppQuote.vue";
 
 export default {
   components: {
@@ -12,6 +13,7 @@ export default {
     AppSpecials,
     AppNav,
     AppSlogan,
+    AppQuote,
   },
 };
 </script>
@@ -21,6 +23,7 @@ export default {
 
   <AppHero />
   <AppSlogan />
+  <AppQuote />
   <AppSpecials />
 </template>
 
