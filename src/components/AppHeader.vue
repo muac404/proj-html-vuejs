@@ -10,7 +10,6 @@ export default {
 };
 </script>
 <template>
-  <AppLogo />
   <AppNav />
   <h1>HEADER</h1>
 </template>
