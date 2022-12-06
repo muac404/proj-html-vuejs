@@ -78,6 +78,6 @@ button {
 }
 
 button:hover {
-  background-color: black;
+  opacity: 0.9;
 }
 </style>
