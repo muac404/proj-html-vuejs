@@ -5,6 +5,7 @@ import AppNav from "./components/AppNav.vue";
 import AppSpecials from "./components/AppSpecials.vue";
 import AppSlogan from "./components/AppSlogan.vue";
 import AppQuote from "./components/AppQuote.vue";
+import AppBuildPizza from "./components/AppBuildPizza.vue";
 
 export default {
   components: {
@@ -14,6 +15,7 @@ export default {
     AppNav,
     AppSlogan,
     AppQuote,
+    AppBuildPizza,
   },
 };
 </script>
@@ -24,6 +26,7 @@ export default {
   <AppSlogan />
   <AppQuote />
   <AppSpecials />
+  <AppBuildPizza />
 </template>
 
 <style scoped></style>
