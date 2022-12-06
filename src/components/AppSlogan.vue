@@ -19,7 +19,7 @@ export default {
     </div>
   </div>
 </template>
-<style>
+<style scoped>
 .row {
   display: flex;
 }
