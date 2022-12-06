@@ -42,5 +42,10 @@ export default {
 
 .partner-card img {
   width: 100%;
+  cursor: pointer;
+}
+
+.partner-card img:hover {
+  scale: 1.2;
 }
 </style>
