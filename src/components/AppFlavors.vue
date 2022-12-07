@@ -23,31 +23,38 @@ export default {
     </div>
 
     <div class="pizza-card">
-      <img src="../assets/h3-product-img-3a-150x150.png" alt="fiori-di-zucca" />
+      <img src="../assets/h3-product-img-3a-150x150.png" alt="valdostana" />
 
       <h5 class="text-center gold">VALDOSTANA</h5>
       <h5 class="text-center primary">$55.00</h5>
     </div>
 
     <div class="pizza-card">
-      <img src="../assets/h3-product-img-4a-150x150.png" alt="fiori-di-zucca" />
+      <img src="../assets/h3-product-img-4a-150x150.png" alt="tartufata" />
 
       <h5 class="text-center gold">PIZZA TARTUFATA</h5>
       <h5 class="text-center primary">$45.00</h5>
     </div>
 
     <div class="pizza-card">
-      <img src="../assets/h3-product-img-5a-150x150.png" alt="fiori-di-zucca" />
+      <img src="../assets/h3-product-img-5a-150x150.png" alt="valdostana" />
 
       <h5 class="text-center gold">VALDOSTANA</h5>
       <h5 class="text-center primary">$55.00</h5>
     </div>
 
     <div class="pizza-card">
-      <img src="../assets/h3-product-img-3a-150x150.png" alt="fiori-di-zucca" />
+      <img src="../assets/h3-product-img-3a-150x150.png" alt="bismarck" />
 
       <h5 class="text-center gold">BISMARCK</h5>
       <h5 class="text-center primary">$30.00</h5>
+    </div>
+
+    <div class="pizza-card">
+      <img src="../assets/h3-product-img-4a-150x150.png" alt="tartufata" />
+
+      <h5 class="text-center gold">PIZZA TARTUFATA</h5>
+      <h5 class="text-center primary">$45.00</h5>
     </div>
   </div>
 </template>
@@ -68,10 +75,16 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .pizza-card {
   margin: 40px;
+  cursor: pointer;
+}
+
+.pizza-card:hover {
+  scale: 1.2;
 }
 
 .gold {
@@ -82,7 +95,7 @@ export default {
   color: #d3401e;
 }
 .m-5 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 </style>

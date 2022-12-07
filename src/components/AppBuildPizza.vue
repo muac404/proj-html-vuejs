@@ -6,7 +6,11 @@ export default {
 <template>
   <section class="build-your-pizza">
     <div class="build-pizza-text">
-      <h2>GO AHEAD AND BUILD YOUR OWN PIZZA WE WON'T JUDGE!</h2>
+      <h2>
+        GO AHEAD AND
+        <span class="gold"> BUILD YOUR OWN PIZZA</span> WE WON'T JUDGE
+        <span class="gold">!</span>
+      </h2>
       <div class="img-cut">
         <div class="cut-up"></div>
         <div class="cut-center"></div>
@@ -17,9 +21,9 @@ export default {
 </template>
 <style scoped>
 .build-your-pizza {
-  background-image: url("../assets/h3-background-img-cut.png");
+  background-image: url("../assets/h3-background-img.png");
   background-size: cover;
-  height: 800px;
+  height: 100vh;
   background-position: center;
   border-top: 5px solid white;
   border-bottom: 5px solid white;
@@ -32,5 +36,19 @@ export default {
   padding-bottom: 100px;
   color: white;
   margin-left: 25%;
+  cursor: pointer;
+}
+h2 {
+  transition: all 2s;
+}
+h2:hover {
+  scale: 1.5;
+}
+
+.gold {
+  transition: all 2s;
+}
+.gold:hover {
+  color: #b7903c;
 }
 </style>
