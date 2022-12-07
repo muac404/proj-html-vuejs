@@ -8,6 +8,7 @@ import AppQuote from "./components/AppQuote.vue";
 import AppBuildPizza from "./components/AppBuildPizza.vue";
 import AppOurTeam from "./components/AppOurTeam.vue";
 import AppClients from "./components/AppClients.vue";
+import AppFlavors from "./components/AppFlavors.vue";
 
 export default {
   components: {
@@ -20,6 +21,7 @@ export default {
     AppBuildPizza,
     AppOurTeam,
     AppClients,
+    AppFlavors,
   },
 };
 </script>
@@ -33,6 +35,7 @@ export default {
   <AppBuildPizza />
   <AppOurTeam />
   <AppClients />
+  <AppFlavors />
 </template>
 
 <style scoped></style>
