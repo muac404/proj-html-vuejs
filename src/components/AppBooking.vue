@@ -47,4 +47,8 @@ button {
   border: none;
   cursor: pointer;
 }
+
+button:hover {
+  background-color: black;
+}
 </style>
