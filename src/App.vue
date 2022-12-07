@@ -11,6 +11,7 @@ import AppClients from "./components/AppClients.vue";
 import AppFlavors from "./components/AppFlavors.vue";
 import AppPizzaEvents from "./components/AppPizzaEvents.vue";
 import AppBooking from "./components/AppBooking.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   components: {
@@ -26,6 +27,7 @@ export default {
     AppFlavors,
     AppPizzaEvents,
     AppBooking,
+    AppFooter,
   },
 };
 </script>
@@ -42,6 +44,7 @@ export default {
   <AppFlavors />
   <AppPizzaEvents />
   <AppBooking />
+  <AppFooter />
 </template>
 
 <style scoped></style>
