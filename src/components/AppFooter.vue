@@ -79,8 +79,8 @@ export default {
 }
 
 .m-10 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .gold {

@@ -46,7 +46,7 @@ h2:hover {
 }
 
 .gold {
-  transition: all 2s;
+  transition: all 1s;
 }
 .gold:hover {
   color: #b7903c;
